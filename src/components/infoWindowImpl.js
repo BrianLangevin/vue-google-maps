@@ -17,11 +17,9 @@ const props = {
   },
   position: {
     type: Object,
-    twoWay: true,
   },
   zIndex: {
     type: Number,
-    twoWay: true,
   }
 };
 

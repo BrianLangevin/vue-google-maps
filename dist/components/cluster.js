@@ -32,20 +32,16 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var props = {
   maxZoom: {
-    type: Number,
-    twoWay: false
+    type: Number
   },
   calculator: {
-    type: Function,
-    twoWay: false
+    type: Function
   },
   gridSize: {
-    type: Number,
-    twoWay: false
+    type: Number
   },
   styles: {
-    type: Array,
-    twoWay: false
+    type: Array
   }
 }; /* vim: set softtabstop=2 shiftwidth=2 expandtab : */
 

@@ -29,13 +29,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var props = {
   center: {
     type: Object,
-    twoWay: true,
     required: true
   },
   radius: {
     type: Number,
-    default: 1000,
-    twoWay: true
+    default: 1000
   },
   draggable: {
     type: Boolean,
@@ -46,8 +44,7 @@ var props = {
     default: false
   },
   options: {
-    type: Object,
-    twoWay: false
+    type: Object
   }
 };
 

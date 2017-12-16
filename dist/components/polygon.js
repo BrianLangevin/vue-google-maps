@@ -43,12 +43,10 @@ var props = {
     type: Object
   },
   path: {
-    type: Array,
-    twoWay: true
+    type: Array
   },
   paths: {
-    type: Array,
-    twoWay: true
+    type: Array
   },
   deepWatch: {
     type: Boolean,

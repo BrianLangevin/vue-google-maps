@@ -40,12 +40,10 @@ var props = {
     type: Boolean
   },
   options: {
-    twoWay: false,
     type: Object
   },
   path: {
-    type: Array,
-    twoWay: true
+    type: Array
   },
   deepWatch: {
     type: Boolean,

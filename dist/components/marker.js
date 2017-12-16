@@ -28,7 +28,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var props = {
   animation: {
-    twoWay: true,
     type: Number
   },
   attribution: {
@@ -36,21 +35,16 @@ var props = {
   },
   clickable: {
     type: Boolean,
-    twoWay: true,
     default: true
   },
   cursor: {
-    type: String,
-    twoWay: true
+    type: String
   },
   draggable: {
     type: Boolean,
-    twoWay: true,
     default: false
   },
-  icon: {
-    twoWay: true
-  },
+  icon: {},
   label: {},
   opacity: {
     type: Number,
@@ -63,23 +57,18 @@ var props = {
     type: Object
   },
   position: {
-    type: Object,
-    twoWay: true
+    type: Object
   },
   shape: {
-    type: Object,
-    twoWay: true
+    type: Object
   },
   title: {
-    type: String,
-    twoWay: true
+    type: String
   },
   zIndex: {
-    type: Number,
-    twoWay: true
+    type: Number
   },
   visible: {
-    twoWay: true,
     default: true
   }
 };

@@ -28,8 +28,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var props = {
   bounds: {
-    type: Object,
-    twoWay: true
+    type: Object
   },
   draggable: {
     type: Boolean,
@@ -40,8 +39,7 @@ var props = {
     default: false
   },
   options: {
-    type: Object,
-    twoWay: false
+    type: Object
   }
 };
 

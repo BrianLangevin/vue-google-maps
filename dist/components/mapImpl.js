@@ -37,28 +37,22 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var props = {
   center: {
     required: true,
-    twoWay: true,
     type: Object
   },
   zoom: {
     required: false,
-    twoWay: true,
     type: Number
   },
   heading: {
-    type: Number,
-    twoWay: true
+    type: Number
   },
   mapTypeId: {
-    twoWay: true,
     type: String
   },
   bounds: {
-    twoWay: true,
     type: Object
   },
   tilt: {
-    twoWay: true,
     type: Number
   },
   options: {
@@ -77,10 +71,10 @@ var linkedMethods = ['panBy', 'panTo', 'panToBounds', 'fitBounds'].reduce(functi
     if (this.$mapObject) this.$mapObject[methodName].apply(this.$mapObject, arguments);
   };
   return all;
-}, {}
+}, {});
 
 // Other convenience methods exposed by Vue Google Maps
-);var customMethods = {
+var customMethods = {
   resize: function resize() {
     if (this.$mapObject) {
       google.maps.event.trigger(this.$mapObject, 'resize');
