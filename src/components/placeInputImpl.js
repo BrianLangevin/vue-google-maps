@@ -38,7 +38,7 @@ const props = {
     default: null
   },
   selectFirstOnEnter: {
-    require: false,
+    required: false,
     type: Boolean,
     default: false
   }
